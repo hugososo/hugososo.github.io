@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@layer base {
+  * {
+    @apply p-0 m-0 box-content
+  }
+
+  body {
+    @apply bg-stone-100
+  }
+
+  p {
+   @apply text-sm text-slate-700 py-3 leading-8
+  }
+
+  ul {
+    @apply py-3
+  }
+
+  li {
+    @apply text-sm text-slate-700 leading-6 list-inside first-letter:capitalize
+  }
+
+  li > span {
+    @apply pl-1
+  }
+
+  button {
+    @apply border uppercase tracking-widest text-xs text-gray-600 font-bold p-3 mt-4
+  }
+
+  article {
+    @apply p-6
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  header {
+    @apply text-slate-800
+  }
+
+  a {
+    @apply hover:text-blue-500
+  }
+
+  td, th {
+    @apply border text-left p-2 text-sm text-slate-700 py-1 leading-8
+  }
+
+  tr {
+    @apply even:bg-stone-200
+  }
+
+  summary {
+    @apply cursor-pointer
+  }
+}
+
+@layer components {
+  .name {
+    @apply tracking-widest font-bold uppercase flex items-center h-full px-6 text-xs  whitespace-nowrap
+  }
+
+  .transitions {
+    @apply transition hover:border-blue-400 hover:text-blue-500
+  }
+
+  .title {
+    @apply tracking-widest font-bold uppercase text-sm whitespace-nowrap
+  }
+
+  .wrapper {
+    @apply w-full h-full m-10 border bg-white
+  }
+
+  .content-wrapper {
+    @apply m-10
+  }
+
+  .border,
+  .border-r,
+  .border-l,
+  .border-t,
+  .border-b,
+  .border-x,
+  .border-y {
+    @apply border-stone-300;
+  }
+
+  .link {
+      @apply decoration-dotted underline underline-offset-4
+  }
+}
+
+/* burger library class override */
+.bm-burger-button {
+  display: none;
+}
+
+.bm-burger-bars {
+  display: none;
+}
+
+.bm-cross-button {
+  display: none;
+}
+
+.bm-cross {
+  display: none;
+}
+
+.bm-menu {
+  background: rgb(255, 255, 255);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
