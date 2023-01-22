@@ -3,7 +3,7 @@ import React from 'react'
 const Education = ({ gpa, major, school, sortedCourses }) => {
   return (
     <article>
-      <header className='title'>
+      <header className='title whitespace-normal'>
         {major}
         {gpa && `, GPA ${gpa}`}
       </header>

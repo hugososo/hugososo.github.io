@@ -50,6 +50,16 @@ const skillItems = [
     duration: 1,
   },
   {
+    label: 'C#',
+    end: 35,
+    duration: 1,
+  },
+  {
+    label: 'Vue',
+    end: 30,
+    duration: 1,
+  },
+  {
     label: 'Redux',
     end: 60,
     duration: 1,

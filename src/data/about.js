@@ -74,7 +74,12 @@ const about = [
   {
     header: 'people i admire',
     content: [
-      <a className='link' href='https://hong41.com/' target='_blank' rel='noreferrer'>
+      <a
+        className='link'
+        href='https://www.linkedin.com/in/chi-hong-tsoi-046435209/'
+        target='_blank'
+        rel='noreferrer'
+      >
         Weeb Sir
       </a>,
     ],

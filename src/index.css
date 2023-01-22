@@ -78,7 +78,7 @@
   }
 
   .wrapper {
-    @apply w-full h-full m-10 border bg-white
+    @apply w-full h-full my-10 lg:m-10 border-y lg:border bg-white
   }
 
   .content-wrapper {
@@ -103,6 +103,7 @@
 /* burger library class override */
 .bm-burger-button {
   display: none;
+  visibility: hidden;
 }
 
 .bm-burger-bars {
@@ -117,8 +118,10 @@
   display: none;
 }
 
+.bm-overlay {
+  display: none;
+}
+
 .bm-menu {
-  background: rgb(255, 255, 255);
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  @apply bg-white mt-[.7em] lg:mt-[.95em] py-8 px-4
 }

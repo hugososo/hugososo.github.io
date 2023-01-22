@@ -4,7 +4,7 @@ import Hamburger from './Hamburger'
 import routes from '../routes/routes'
 
 const Navigation = () => (
-  <div className='flex justify-between md:justify-start h-14 fixed left-0 top-0 w-full border-b items-center bg-white z-50'>
+  <div className='flex justify-between md:justify-start h-12 lg:h-14 fixed left-0 top-0 w-full border-b items-center bg-white z-50'>
     <h1 className='name border-r'>
       {routes
         .filter((l) => l.index)

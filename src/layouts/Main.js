@@ -9,9 +9,9 @@ const Main = () => (
     <ScrollToTop />
     <div>
       <Navigation />
-      <div className='flex mt-[3em] flex-wrap lg:flex-nowrap'>
+      <div className='flex mt-[3em] lg:mt-[3.5em] flex-wrap lg:flex-nowrap'>
         <SideBar />
-        <Outlet className='w-[78em]' />
+        <Outlet />
       </div>
     </div>
   </>

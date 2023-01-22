@@ -21,7 +21,7 @@ function Skills() {
                   key={`progress-${i}`}
                   label={item.label}
                   end={item.end}
-                  duration={item.duration}
+                  duration={item.duration + item.end / 100}
                 />
               )
             })}

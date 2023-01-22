@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Project = ({ title, img, description }) => {
+const Project = ({ title, subtitle, url, img, description }) => {
   return (
-    <div className='border mx-6 pt-6 relative'>
-      <header className='title px-4'>{title}</header>
-      <p className='uppercase px-4 font-light tracking-wider'>IVE FYP November, 2021</p>
+    <div className='border-x-0 border-y lg:border pt-6 relative w-full'>
+      <header className={`name px-4 whitespace-normal tracking-wider ${url && 'link transitions'}`}>
+        {title}
+      </header>
+      <p className='uppercase px-4 font-light tracking-wider'>{subtitle}</p>
       <div className='overflow-hidden'>
         <img
           src={img}

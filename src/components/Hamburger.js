@@ -9,33 +9,25 @@ const Hamburger = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className='hamburger-container'>
-      <nav className='main' id='hambuger-nav'>
-        <ul>
-          {open ? (
-            <li className='menu close-menu cursor-pointer'>
-              <div onClick={() => setOpen(!open)} className='menu-hover'>
-                &#10005;
-              </div>
-            </li>
-          ) : (
-            <li className='menu open-menu cursor-pointer'>
-              <div onClick={() => setOpen(!open)} className='menu-hover'>
-                &#9776;
-              </div>
-            </li>
-          )}
-        </ul>
-      </nav>
+    <div>
+      {open ? (
+        <div className='cursor-pointer text-lg' onClick={() => setOpen(!open)}>
+          &#10005;
+        </div>
+      ) : (
+        <div className='cursor-pointer text-lg' onClick={() => setOpen(!open)}>
+          &#9776;
+        </div>
+      )}
       <Suspense fallback={<></>}>
         <Menu right isOpen={open}>
-          <ul className='block'>
+          <ul className='!flex flex-col justify-around h-60'>
             {routes
               .filter((l) => !l.index)
               .map((l) => (
-                <li key={l.label}>
+                <li key={l.label} className='title'>
                   <Link to={l.path} onClick={() => setOpen(!open)}>
-                    <h3 className={l.index && 'index-li'}>{l.label}</h3>
+                    <h3 className='transitions px-10'>{l.label}</h3>
                   </Link>
                 </li>
               ))}
