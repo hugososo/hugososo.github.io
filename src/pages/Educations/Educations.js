@@ -30,6 +30,7 @@ function Educations() {
       </div>
       <div className='m-4'>
         <Education
+          gpa='3.11'
           major={personal.major}
           school={personal.university}
           sortedCourses={sortCourses(uniCourses)}

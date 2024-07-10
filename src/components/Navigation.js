@@ -14,7 +14,7 @@ const Navigation = () => (
           </Link>
         ))}
     </h1>
-    <nav className='h-full items-center overflow-hidden ml-6 pl-6 hidden md:flex'>
+    <nav className='h-full w-full items-center overflow-hidden ml-3 pl-3 hidden md:flex'>
       <ul className='flex justify-between'>
         {routes
           .filter((l) => !l.index)

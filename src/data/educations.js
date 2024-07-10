@@ -49,6 +49,31 @@ export const uniCourses = [
     course: 'DATA MINING AND DATA WAREHOUSING',
     grade: 'A-',
   },
+  {
+    code: 'COMP3421',
+    course: 'WEB APPLICATION DESIGN AND DEVELOPMENT',
+    grade: 'A',
+  },
+  {
+    code: 'COMP4121',
+    course: 'E-COMMERCE TECHNOLOGY AND APPLICATIONS',
+    grade: 'B',
+  },
+  {
+    code: 'COMP4434',
+    course: 'BIG DATA ANALYTICS',
+    grade: 'B-',
+  },
+  {
+    code: 'COMP4442',
+    course: 'SERVICE AND CLOUD COMPUTING',
+    grade: 'A+',
+  },
+  {
+    code: 'COMP4913',
+    course: 'CAPSTONE PROJECT',
+    grade: 'B+',
+  },
 ]
 
 export const hdCourses = [

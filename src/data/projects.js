@@ -1,19 +1,18 @@
 import iveFyp from '../assets/ive_fyp.png'
-import daytaPrj from '../assets/dayta_prj.jpg'
+import bookstore from '../assets/bookstore.png'
 import bees from '../assets/bees.png'
 import figure from '../assets/figure.png'
 
 const projectItems = [
   {
-    title: 'Admin Panel',
-    subtitle: 'Dayta Software Engineer Intern - 2022',
-    img: daytaPrj,
-    description:
-      'An internal system built by React and GoLang for Dayta business team to handle their business work and routine job',
+    title: 'Dencentralized Bookstore',
+    subtitle: 'Capstone Project - 2023',
+    img: bookstore,
+    description: 'Developed a full-stack decentralized e-commerce bookstore web application enabling online payments via cryptocurrency on the Ethereum chain.Utilized Echo to serve a REST API and React for the frontend, with smart contracts deployed using Hardhat.',
   },
   {
     title: 'CASL Mall Web Application',
-    subtitle: 'IVE FYP - 2021',
+    subtitle: 'IVE Final Year Project - 2021',
     img: iveFyp,
     description:
       'An Commercial Mall Application built with Ionic React and the CMS built by Node.js, using Google Data Studio generate user behavior chart from Firebase Database for business analysis',
@@ -28,7 +27,7 @@ const projectItems = [
   },
   {
     title: '3D Model Display Website',
-    subtitle: 'For Fun / J',
+    subtitle: 'For Fun',
     img: figure,
     url: 'https://kono-vegeta.vercel.app/',
     description:

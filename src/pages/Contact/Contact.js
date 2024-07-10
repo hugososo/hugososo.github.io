@@ -9,10 +9,7 @@ function Contact() {
         <h1 className='title text-2xl p-6'>Contact</h1>
       </div>
       <article className='m-4'>
-        <p className='p-0 m-0'>Feel free to get in touch. You can email me at:</p>
-        <p className='p-0 mt-0 mb-8 link'>
-          <a href={`mailto:${personal.school_email}`}>{personal.school_email}</a>
-        </p>
+        <p className='p-0 m-0'>Please feel free to get in touch with me via email at  <a className="link" href={`mailto:${personal.email}`}>{personal.email}</a> or by phone at {personal.phone}</p>
         <ContactIcons />
       </article>
     </div>

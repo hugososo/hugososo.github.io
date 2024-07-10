@@ -1,20 +1,20 @@
- {
+{
   "first_name": "Ho Tai",
   "last_name": "So",
   "full_name": "So Ho Tai",
   "nick_name": "Hugo",
   "birth": "1998",
-  "email": "sohugo2008@gmail.com",
+  "email": "hugososoca@gmail.com",
   "school_email": "21028597d@connect.polyu.hk",
-  "domain": "portfolio.konovegeta.com",
-  "university": "Hong Kong Poly University",
+  "phone": "+1 647 234 9957",
+  "domain": "https://hugososo.github.io/",
+  "university": "The Hong Kong Polytechnic University",
   "university_link": "https://www.polyu.edu.hk/comp/",
   "hd": "Hong Kong Institute of Vocational Education",
   "hd_link": "https://www.vtc.edu.hk/admission/en/programme/it114105-higher-diploma-in-software-engineering/",
   "major": "BSc (Hons) in Computing",
   "hd_major": "Higher Diploma in Software Engineering",
-  "linkedin":"https://www.linkedin.com/in/hugo-so-b4659516a/",
-  "github":"https://github.com/hugososo",
-  "twitter":"https://twitter.com/konovegeta"
-  
+  "linkedin": "https://www.linkedin.com/in/hugo-so-b4659516a/",
+  "github": "https://github.com/hugososo",
+  "twitter": "https://twitter.com/konovegeta"
 }

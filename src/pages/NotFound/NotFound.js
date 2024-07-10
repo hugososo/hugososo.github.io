@@ -9,7 +9,7 @@ function NotFound() {
       </div>
       <div className='m-4'>
         <article>
-          <header className='title mb-4'>Sorry, please go to other pages</header>
+          <header className='title mb-4'>Sorry, please go to the other page</header>
           <img src={chaewon} alt='sorry' width='250' />
         </article>
       </div>
